@@ -9,11 +9,11 @@ This repository and corresponding NPM package are deprecated in favor of [**fres
 Useful links:
 
 1. [NPM package](https://www.npmjs.com/package/freshdesk-api):
-    * v2 is **preferred**: `npm install freshdesk-api`
+    * v2: `npm install freshdesk-api`
     * v1: `npm install freshdesk-api@APIv1`
 2. GitHub, `node-freshdesk-api`:
     * [v2 on master branch](https://github.com/arjunkomath/node-freshdesk-api)
-    * [v1 in additional branch](https://github.com/arjunkomath/node-freshdesk-api/tree/API-v1)
+    * [v1 branch](https://github.com/arjunkomath/node-freshdesk-api/tree/API-v1)
 
 ----
 
@@ -138,12 +138,6 @@ Freshdesk.createTicket(100, function(err, res) {
   console.log("My Ticket is", res.body);
 });
 ```
-
-# Contributors
-
-* Angad Nadkarni (@angadn) - Support for HTML tickets (#3)
-* Scott Hasbrouck (@scotthasbrouck) - #1
-* Martin Edwards (@mledwards) - #2
 
 # Contributing
 
